@@ -1,0 +1,141 @@
+/* Home.css */
+.column1 {
+    background-image: linear-gradient(#fefcfe, #ffffff);
+    padding: 8px 16px;
+  }
+  
+  .section-1 {
+    margin-top: 6%;
+    position: relative;
+    text-align: left;
+  }
+  
+  span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0.0deg); }
+    10% { transform: rotate(-10.0deg); }
+    20% { transform: rotate(12.0deg); }
+    30% { transform: rotate(-10.0deg); }
+    40% { transform: rotate(9.0deg); }
+    50% { transform: rotate(0.0deg); }
+    100% { transform: rotate(0.0deg); }
+  }
+  
+  .first-image {
+    position: absolute;
+    right: 0;
+  }
+  
+  .boyimage {
+    height: 300px;
+  }
+  
+  @media only screen and (max-width: 1183px) {
+    .first-image {
+      right: 160px;
+    }
+  }
+  
+  .boy {
+    width: 100%;
+    height: 100%;
+    animation: bounce 1.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(0, 20px, 0);
+    }
+  }
+  
+  .Image-boy {
+    text-align: center;
+    align-items: center;
+  }
+  
+  @media only screen and (min-width: 951px) {
+    .Image-boy {
+      display: none;
+    }
+  }
+  
+  .Hello {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 2;
+    color: #868e96;
+  }
+  
+  .social_media_icon {
+    margin-top: 20px;
+  }
+
+  .social-icon{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    width: 4.37rem;
+    height: 4.37rem;
+    background: #e9e9e9;
+    padding: 0px 0px;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .btn i {
+    line-height: 70px;
+    font-size: 1.625rem;
+    transition: 0.2s linear;
+  }
+  
+  .btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+  }
+
+  .btn:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
+  
+  @media only screen and (max-width: 470px) {
+    .btn {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin: 7px;
+    }
+    .btn i {
+      line-height: 40px;
+      font-size: 1em;
+    }
+  }
+
+
+.row-column1{
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+  

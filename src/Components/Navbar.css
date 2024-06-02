@@ -1,0 +1,13 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  color: rgb(150, 138, 138);
+}
+
+.navbar-collapse{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
