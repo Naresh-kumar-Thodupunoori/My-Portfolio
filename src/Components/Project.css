@@ -124,7 +124,9 @@ body {
   }
 
 }
-
+.card-body{
+  height : 20vh;
+}
 footer {
   padding-top: 2%;
   color: #868e96;
